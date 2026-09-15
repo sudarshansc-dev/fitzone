@@ -1,0 +1,31 @@
+# distutils shim (Python 3.12+ removed distutils; PyAudio needs it)
+setuptools>=75.0.0
+
+# Core speech
+SpeechRecognition==3.10.4
+pyttsx3==2.90
+PyAudio==0.2.14
+
+# System control
+psutil==6.1.0
+pygetwindow==0.0.9
+pywin32==308   # Windows API access (ctypes/wmi shortcuts)
+Pillow==11.0.0
+
+# GUI
+PyQt5==5.15.11
+
+# Keyboard hotkey
+pynput==1.7.6
+
+# Fuzzy command matching
+rapidfuzz==3.10.1
+
+# Voice profile (speaker recognition) — lightweight feature extraction
+numpy==2.1.3
+
+# Optional: AI reasoning (enable in config.py)
+# openai==1.54.0
+
+# Optional: dedicated wake-word engine (precise, lightweight)
+# ovos-precise==0.0.10  # or pipclone / openWakeWord
